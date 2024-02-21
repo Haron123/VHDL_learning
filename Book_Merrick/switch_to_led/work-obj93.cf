@@ -1,0 +1,4 @@
+v 4
+file . "switch_to_led.vhd" "f6abf5002e472daef50cae8c60dad5d6753218b7" "20240221134249.563":
+  entity switches_to_leds at 1( 0) + 0 on 55;
+  architecture rtl of switches_to_leds at 15( 200) + 0 on 56;
