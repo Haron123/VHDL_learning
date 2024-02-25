@@ -1,0 +1,22 @@
+# Clock
+set_io i_clock 21   # 12 MHz clock
+
+# LED pins:
+set_io led1 99  # red
+set_io led2 98  # red
+set_io led3 97  # red
+set_io led4 96  # red
+set_io o_led 95  # green
+
+# PMOD
+# Note: pin 5 and 11 are ground, pins 6 and 12 are Vcc
+##set_io PMOD1 78 # PIO1_02
+##set_io PMOD2 79 # PIO1_03
+##set_io PMOD3 80 # PIO1_04
+##set_io PMOD4 81 # PIO1_05
+##set_io PMOD7 87 # PIO1_06
+##set_io PMOD8 88 # PIO1_07
+##set_io PMOD9 90 # PIO1_08
+##set_io PMOD10 91 # PIO1_09
+
+set_io i_switch 78

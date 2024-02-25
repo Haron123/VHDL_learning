@@ -1,0 +1,4 @@
+v 4
+file . "fulladder.vhdl" "27a4568968c1196a39e2f9ed2eaacd5da22aaa67" "20240222191702.061":
+  entity fulladder at 1( 0) + 0 on 23;
+  architecture rtl of fulladder at 18( 250) + 0 on 24;

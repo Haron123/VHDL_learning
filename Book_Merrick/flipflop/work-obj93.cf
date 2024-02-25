@@ -1,0 +1,4 @@
+v 4
+file . "toggleled.vhd" "e5128b9c70bbec7f88a3c7ffdbf984f5b5292876" "20240224140541.200":
+  entity toggleled at 1( 0) + 0 on 25;
+  architecture rtl of toggleled at 16( 210) + 0 on 26;
