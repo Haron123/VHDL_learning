@@ -1,9 +1,9 @@
 all:
   # analyze vhdl
-	ghdl -a --std=08 seg7.vhdl
+	ghdl -a --std=08 ram.vhdl
 
   # Synthesize
-	yosys -m ghdl -p 'ghdl --std=08 seg7; synth_ice40 -json synth.json'
+	yosys -m ghdl -p 'ghdl --std=08; synth_ice40 -json synth.json'
 
   # P&R
 	nextpnr-ice40 --package hx1k --pcf constraint.pcf --asc result.asc --json synth.json

@@ -1,4 +1,0 @@
-v 4
-file . "seg7.vhdl" "6cf0238f42d6007f1e52f81b5f0044011d66b8c2" "20240222194501.168":
-  entity seg7 at 1( 0) + 0 on 39;
-  architecture rtl of seg7 at 22( 364) + 0 on 40;

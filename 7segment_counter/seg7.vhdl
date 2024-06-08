@@ -15,6 +15,7 @@ entity seg7 is
     E : out std_logic;
     F : out std_logic;
     G : out std_logic;
+    SEL : out std_logic
   );
 end entity seg7;
 
@@ -31,14 +32,6 @@ begin
       when 5 => r_hex <= "0100100"; -- 5
       when 6 => r_hex <= "0100000"; -- 6
       when 7 => r_hex <= "0001111"; -- 7
-      when 8 => r_hex <= "0000000"; -- 8
-      when 9 => r_hex <= "0000100"; -- 9
-      when 10 => r_hex <= "0001000"; -- A
-      when 11 => r_hex <= "1100000"; -- B
-      when 12 => r_hex <= "0110001"; -- C
-      when 13 => r_hex <= "1000010"; -- D
-      when 14 => r_hex <= "1001111"; -- E
-      when 15 => r_hex <= "0111000"; -- F
       when others => r_hex <= "0000000"; -- error
     end case;
   end process;
